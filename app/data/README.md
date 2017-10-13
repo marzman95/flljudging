@@ -8,17 +8,23 @@ This file contains blablablah, but also some information about the several data-
 - general_settings.template.json should become *settings.template.json*
 -
 
-##### settings.json
+### settings.json
 This file contains all the basic settings for a tournament. It contains the lanes and their corresponding rooms, and more.
 
-##### judgingpanels.json
+### judgingpanels.json
 This contains the names and rooms of the juding panels.
 
-##### teams.json
+### teams.json
 Contains the teams of a tournament. This file has the same structure as in the other FLL-applications.
 
-##### questions.json
+### questions.json
 Contains a json-translation of the FIRST-juding rubrics forms and the information to implement those rubrics in the application.
+##### To do
+- Change names to "[RD/CV/PR]\_[LANG].json".
+- When language support is needed, probably change to folder-based structure.
 
-##### awards.json
-Contains all the (judging) awards of a tournament. This file can be used to transport to other applications such as the [https://github.com/FirstLegoLeague/displaySystem](display system) for filling in the overlays.
+
+### awards.json
+Contains all the (judging) awards of a tournament. This file can be used to transport to other applications such as the [Display system](https://github.com/FirstLegoLeague/displaySystem) for filling in the overlays. Contains the FIRST-defined awards.
+##### To do
+- Implement possibility to add/change awards. For this, a standard file and an edited file for the tournament should be available. The standard-file contains the official FIRST-awards as described on their (website)[http://firstlegoleague.org/awards]
